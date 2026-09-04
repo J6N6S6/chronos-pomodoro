@@ -1,14 +1,14 @@
 .logo {
-  margin: 3.2rem 0;
+  margin: 2.4rem 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 2.4rem;
-  margin-top: 4rem;
+  gap: 2rem;
+  padding-top: 4rem;
+  padding-bottom: 1rem;
 }
 
 .logoLink {
-  background: green;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,6 +18,10 @@
   font-weight: bold;
   text-decoration: none;
   color: var(--primary);
+  transition: all 0.1s ease-in-out;
+}
+.logoLink:hover {
+  filter: brightness(0.75);
 }
 
 .logoLink svg {

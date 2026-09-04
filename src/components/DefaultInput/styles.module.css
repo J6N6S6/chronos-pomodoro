@@ -1,0 +1,35 @@
+.input {
+  background: transparent;
+
+  text-align: center;
+  font-size: 2rem;
+
+  border: 0.2rem solid transparent;
+  border-bottom: 0.2rem solid var(--primary);
+  transition: all 0.5s ease-in-out;
+  padding: 0.5rem 1rem;
+
+  color: var(--text-default);
+}
+
+.input:focus {
+  outline: none;
+  box-shadow: 0 0 0.5rem var(--primary);
+
+  border: 0.2rem solid var(--primary);
+  border-radius: 1rem;
+}
+
+.input:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+
+  border-bottom: 0.2rem solid var(--disabled);
+  color: var(--text-muted);
+}
+
+.label {
+  font-size: 2rem;
+  color: var(--text-color);
+  font-weight: 600;
+}

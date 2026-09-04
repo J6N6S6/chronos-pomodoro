@@ -1,0 +1,33 @@
+.cyclesArea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem 0;
+  padding: 1rem;
+}
+
+.cycleDots {
+  display: flex;
+  gap: 0.7rem;
+}
+
+.cycleDot {
+  display: inline-block;
+  width: 2.4rem;
+  height: 2.4rem;
+  background-color: var(--primary);
+  border-radius: 50%;
+}
+
+.workTime {
+  background-color: var(--work-time);
+}
+
+.shortBreakTime {
+  background-color: var(--short-break-time);
+}
+
+.longBreakTime {
+  background-color: var(--long-break-time);
+}

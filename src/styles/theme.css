@@ -35,4 +35,9 @@
 
   --disabled: #555f7d;
   --text-disabled: #aab3cc;
+
+  /* Custom colors for the Pomodoro timer */
+  --work-time: #d49a3a; /* amber glow */
+  --short-break-time: #e66fb5; /* hot pink */
+  --long-break-time: #4f8fd8; /* electric dusk */
 }

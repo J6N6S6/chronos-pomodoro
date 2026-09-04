@@ -1,0 +1,25 @@
+.button {
+  border: 0;
+  border-radius: 0.8rem;
+  background-color: var(--primary);
+  color: var(--text-over-primary);
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 1rem;
+  min-width: 24rem;
+  margin: 1rem 0;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+}
+
+.button svg {
+  width: 3.4rem;
+  height: 3.4rem;
+}
+
+.button:hover {
+  filter: brightness(0.75);
+}
