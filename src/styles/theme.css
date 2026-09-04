@@ -40,4 +40,8 @@
   --work-time: #d49a3a; /* amber glow */
   --short-break-time: #e66fb5; /* hot pink */
   --long-break-time: #4f8fd8; /* electric dusk */
+
+  /* Additional custom colors for the Pomodoro timer buttons */
+  --stop-pink: #e66fb5; /* hot pink */
+  --pause-purple: #d8d4e3; /* soft lavender */
 }

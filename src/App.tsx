@@ -9,7 +9,7 @@ import { Countdown } from './components/Countdown'
 import { DefaultInput } from './components/DefaultInput'
 import { Cycles } from './components/Cycles'
 import { DefaultButton } from './components/DefaultButton'
-import { Play } from 'lucide-react'
+import { Pause, Play, Square } from 'lucide-react'
 
 export function App() {
   return (
@@ -34,7 +34,7 @@ export function App() {
               id='task'
               type='text'
               labelText='Task'
-              placeholder='Digite a tarefa...'
+              placeholder='Type your task here...'
             ></DefaultInput>
           </div>
           <div className='formRow'>
@@ -44,7 +44,9 @@ export function App() {
             <Cycles />
           </div>
           <div className='formRow'>
-            <DefaultButton icon={<Play />} />
+            <DefaultButton icon={<Play />} action='play' />
+            <DefaultButton icon={<Square />} action='stop' />
+            <DefaultButton icon={<Pause />} action='pause' />
           </div>
         </form>
       </Container>
