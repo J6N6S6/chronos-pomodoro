@@ -1,5 +1,4 @@
 import { Container } from './components/Container'
-import { Heading } from './components/Heading'
 import { Logo } from './components/Logo'
 
 import './styles/theme.css'
@@ -10,6 +9,7 @@ import { DefaultInput } from './components/DefaultInput'
 import { Cycles } from './components/Cycles'
 import { DefaultButton } from './components/DefaultButton'
 import { Pause, Play, Square } from 'lucide-react'
+import { Footer } from './components/Footer'
 
 export function App() {
   return (
@@ -45,13 +45,11 @@ export function App() {
           </div>
           <div className='formRow'>
             <DefaultButton icon={<Play />} action='play' />
-            <DefaultButton icon={<Square />} action='stop' />
-            <DefaultButton icon={<Pause />} action='pause' />
           </div>
         </form>
       </Container>
       <Container>
-        <Heading>FOOTER</Heading>
+        <Footer />
       </Container>
     </>
   )
