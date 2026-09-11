@@ -45,6 +45,8 @@ export function App() {
           </div>
           <div className='formRow'>
             <DefaultButton icon={<Play />} action='play' />
+            <DefaultButton icon={<Pause />} action='pause' />
+            <DefaultButton icon={<Square />} action='stop' />
           </div>
         </form>
       </Container>

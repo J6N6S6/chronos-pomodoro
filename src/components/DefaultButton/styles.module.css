@@ -30,11 +30,11 @@
 }
 
 .stop {
-  background-color: var(--stop-pink);
+  background-color: var(--stop-color);
   color: var(--text-over-primary);
 }
 
 .pause {
-  background-color: var(--pause-purple);
+  background-color: var(--pause-color);
   color: var(--text-over-primary-light);
 }

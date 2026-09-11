@@ -36,12 +36,48 @@
   --disabled: #555f7d;
   --text-disabled: #aab3cc;
 
-  /* Custom colors for the Pomodoro timer */
+  /* Pomodoro cycles */
   --work-time: #d49a3a; /* amber glow */
-  --short-break-time: #e66fb5; /* hot pink */
+  --short-break-time: #a86bd4; /* plum */
   --long-break-time: #4f8fd8; /* electric dusk */
 
-  /* Additional custom colors for the Pomodoro timer buttons */
-  --stop-pink: #e66fb5; /* hot pink */
-  --pause-purple: #d8d4e3; /* soft lavender */
+  /* Buttons */
+  --stop-color: #e66fb5; /* bubblegum pink */
+  --pause-color: #ddd8e1; /* soft lavender */
+}
+
+:root[data-theme='light'] {
+  /* Neutral scale */
+  --gray-100: #17131f;
+  --gray-200: #292431;
+  --gray-300: #403a49;
+  --gray-400: #5f5869;
+  --gray-500: #797180;
+  --gray-600: #99919f;
+  --gray-700: #bbb4c0;
+  --gray-800: #ddd8e1;
+  --gray-900: #f3f0f5;
+
+  /* Pulse */
+  --primary-light: #d9a6d0;
+  --primary: #a8558f;
+  --primary-dark: #783c69;
+
+  --link-color: #a8558f;
+  --link-hover: #783c69;
+
+  --text-default: #17131f;
+  --text-muted: #797180;
+
+  --disabled: #ddd8e1;
+  --text-disabled: #99919f;
+
+  /* Cycles */
+  --work-time: #d49a3a;
+  --short-break-time: #e66fb5;
+  --long-break-time: #4f8fd8;
+
+  /* Buttons */
+  --stop-color: #c96f62;
+  --pause-color: #ddd8e1;
 }
